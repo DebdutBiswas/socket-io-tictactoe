@@ -19,8 +19,8 @@ Remember: Open each of the clients in a seperate command / bash terminal
 ## User Inputs / Outputs:
 - All the inputs and outputs will be in only client command / bash terminal.
 - Server termnal outputs verbose related to player / client and game move activity.
-- Client terminal takes one move input at a time, raging from 1 to 9.
-- Client terminal outputs tic tac toe game board after each player move.
+- Client terminal takes one move input at a time, ranging from 1 to 9.
+- Client terminal outputs tic-tac-toe game board after each player move.
 
 ### Example Input / Output:
 #### Input:
@@ -29,3 +29,9 @@ Remember: Open each of the clients in a seperate command / bash terminal
 ... <br />
 .x. <br />
 ... <br />
+
+## Game Design:
+### Game Server:
+- A socket.io based server responsible for listening to player events, managing players and game rooms, handling game logic.
+### Clients:
+- A socket.io-client based client responsible for sending player moves, events to server and listening game results from server.
