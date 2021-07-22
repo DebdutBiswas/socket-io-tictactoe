@@ -10,7 +10,7 @@ const readline = require('readline');
 //const rl = readline.createInterface({input: process.stdin, output: process.stdout});
 //Has to disable readLine output for wired echoing behaviour
 const rl = readline.createInterface({input: process.stdin});
-const socket = socketio.connect(`http://${process.argv[2]}:${process.argv[3]}`, {reconnect: true});
+const socket = socketio.connect((process.argv[4] === 's') ? `https://${process.argv[2]}:${process.argv[3]}` : `http://${process.argv[2]}:${process.argv[3]}`, {reconnect: true});
 
 //Check if successfuly connected to game server
 socket.on('connect', message => {
