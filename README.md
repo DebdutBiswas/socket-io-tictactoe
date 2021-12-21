@@ -5,17 +5,17 @@ A simple console based TicTacToe game.
 - https://codesandbox.io/s/socket-io-tictactoe-l8txw
 
 ## Install required node modules:
-- npm install
+> npm install
 
 ## How to run the code?
 ### First, start the server:
 
-- npm start
+> npm start
 
 ### Start clients one by one like below:
 
-- npm run client1-test
-- npm run client1-test
+> npm run client1-test
+> npm run client1-test
 
 Remember: Open each of the clients in a seperate command / bash terminal
 
@@ -35,6 +35,6 @@ Remember: Open each of the clients in a seperate command / bash terminal
 
 ## Game Design:
 ### Game Server:
-- A socket.io based server responsible for listening to player events, managing players and game rooms, handling game logic.
+A socket.io based server responsible for listening to player events, managing players and game rooms, handling game logic.
 ### Clients:
-- A socket.io-client based client responsible for sending player moves, events to server and listening game results from server.
+A socket.io-client based client responsible for sending player moves, events to server and listening game results from server.
