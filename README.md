@@ -2,7 +2,7 @@
 A simple console based TicTacToe game.
 
 ## Codesandbox.io playground link:
-- https://codesandbox.io/s/socket-io-tictactoe-l8txw
+https://codesandbox.io/s/socket-io-tictactoe-l8txw
 
 ## Install required node modules:
 > npm install
